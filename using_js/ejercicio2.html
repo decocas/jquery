@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" >
+    <script src="ejer.js"></script>
+    <title>cookies</title>
+</head>
+<body onload="verificar()">
+    <article >
+        <h1>Usando cookies</h1>
+        <div>
+            <label>nombre</label> <input type="text" id="user"name="name" placeholder="Nombre">
+            <label>clave</label>  <input type="text" id="pass" name="pssw" placeholder="Acceso">
+        
+        </div>
+                <div><button type="submit" onclick="crear(user,pass)">crear</button></div>
+                <div><button type="reset" onclick="borrar()">limpiar</button></div>    
+    </article>
+</body>
+</html>

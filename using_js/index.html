@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JS</title>
+</head>
+<body>
+    <script src="funcion.js"></script>
+    <p>
+        <h1 id="texto">aqui hay algo</h1>
+    </p>
+<!--funciona igual utilizando innerHtml-->
+    <button type="button" onclick="document.getElementById('texto').innerText='esto es js'">click</button>
+    <button type="button" onclick="document.getElementById('texto').innerText=Date()">click</button>
+<article>
+    <div>
+        <img id="mym" src="http://1.bp.blogspot.com/-KKw46S78zMs/TtAmQOgK5fI/AAAAAAAAAAo/6yxMDiyNv3o/s320/moneda++copia.jpg" alt="100pses">
+    </div>
+    <button type="button"  onclick="document.getElementById('mym').src='//media.biobiochile.cl/wp-content/uploads/2014/07/Imagen-de-una-moneda-regular-de-500.jpg'">500</button>
+    <button type="button" onclick="document.getElementById('mym').src='http://1.bp.blogspot.com/-KKw46S78zMs/TtAmQOgK5fI/AAAAAAAAAAo/6yxMDiyNv3o/s320/moneda++copia.jpg'">100</button>
+</article>
+<aside><button type="submit" onclick="Cookie()" onclick="myF()">alert</button></aside>
+</body>
+</html>

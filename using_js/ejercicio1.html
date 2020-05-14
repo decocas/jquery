@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ejecicio.js"></script>
+</head>
+<body>
+    <header>Esto es un ejercicio</header>
+        <section>
+            <h2>Ejercicio 1</h2>
+        </section>
+        <article>
+            <h4>formulario</h4>
+            <div id="formulario">
+                <form>
+                    <ol>
+                        <li><label>Nombre: </label>
+                            <input type="text" onchange="myName()" id="nombre"  placeholder="nombre">
+                        </li>
+                        <li>
+                            <label>Correo: </label>
+                            <input type="email" value="@"  id="correo" placeholder="mail">
+                        </li>
+                        <li>
+                            <label>Edad: </label>
+                            <input type="number" onchange="myAge()" min="1" id="edad" value="1"  >
+                        </li>
+                        <li>
+                            <label>Genero: </label>
+                            <select>
+                                <option>dflt</option>
+                                <option id="H" onclick="esH()">Hombre</option>
+                                <option  id="M"onclick="esM()">Mujer</option>
+                            </select>
+                        </li>
+                        <li><select id="job">  </select></li>
+                                                   
+                    </ol>
+                        <button type="submit" onclick="revisar()" id="btn">entre</button>
+                </form>
+                
+            </div>
+        </article>
+</body>
+</html>
